@@ -1,0 +1,9 @@
+
+# custer-info-cm.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: repo-test-marker
+  namespace: default
+data:
+  status: "config-sync-is-working"
