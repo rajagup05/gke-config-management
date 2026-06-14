@@ -1,0 +1,9 @@
+
+apiVersion: v1
+kind: Kind
+metadata:
+  name: app-team-ns
+  labels:
+    # Recommended labels for tracking and organization
+    environment: production
+    team: application-development
